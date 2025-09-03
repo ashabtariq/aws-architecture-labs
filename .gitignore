@@ -1,0 +1,39 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Ignore override files as they are usually used to override resources locally
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Exclude CLI configuration files
+.terraformrc
+terraform.rc
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# AWS credentials and config
+.aws/
+*.pem
+*.key
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# System files
+.DS_Store
+Thumbs.db
